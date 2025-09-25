@@ -5,8 +5,8 @@ title                    : "Yidi Huang — Ph.D. Candidate, ECE @ GMU"
 title_separator          : "·"
 name                     : &name "Yidi Huang"
 description              : &description "Academic homepage of Yidi Huang, Ph.D. Candidate in Electrical and Computer Engineering at George Mason University."
-url                      : https://huang-yidi.github.io
-baseurl                  : ""
+url                      : "https://gmuyidi.github.io"
+baseurl                  : "/huang-yidi.github.io"
 repository               : "GMUYidi/huang-yidi.github.io"
 
 # Site Author (left sidebar / author card)
