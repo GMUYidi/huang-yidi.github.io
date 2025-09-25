@@ -1,7 +1,7 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default"
-title                    : "Yidi Huang — Ph.D. Candidate, ECE @ GMU"
+title                    : "Yidi Huang"
 title_separator          : "·"
 name                     : &name "Yidi Huang"
 description              : &description "Academic homepage of Yidi Huang, Ph.D. Candidate in Electrical and Computer Engineering at George Mason University."
