@@ -9,7 +9,7 @@ redirect_from:
 
 # Welcome!
 
-I am **Yidi Huang (黄一棣)**, a Ph.D. candidate in **Electrical and Computer Engineering** at **George Mason University (GMU)**, advised by [Dr. Ningshi Yao](https://ningshiyao.com/).  
+I am **Yidi Huang**, a Ph.D. candidate in **Electrical and Computer Engineering** at **George Mason University (GMU)**, advised by [Dr. Ningshi Yao](https://ningshiyao.com/).  
 My research focuses on:
 
 - **Biomimetic Robotic Eye Design** – building cable-driven robotic eye platforms inspired by human extraocular muscles.  
