@@ -9,7 +9,7 @@
 
 main:
   - title: "About"
-    url: /about/
+    url: /
   - title: "Publications"
     url: /publications/
   - title: "Talks"
@@ -20,6 +20,4 @@ main:
     url: /portfolio/
   - title: "CV"
     url: /cv/
-    
-  # - title: "CV"
-  #   url: /cv-json
+
