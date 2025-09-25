@@ -1,6 +1,5 @@
-categories: [manuscripts]   # 期刊论文
-# 或
-categories: [conferences]   # 会议论文
+categories: [manuscripts] 
+categories: [conferences]   
 
 ---
 title: "Unveiling the Dynamics of Human Decision-Making: From Strategies to False Beliefs in Collaborative Human-Robot Co-Learning Tasks"
