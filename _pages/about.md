@@ -15,11 +15,11 @@ My research focuses on:
 
 ## Education
 - **Ph.D. in Electrical and Computer Engineering**, George Mason University, Fairfax, VA, USA  
-  GPA: 3.90/4.00 · 2022.01 – Present  
+  2022.01 – 2026.06  
 - **M.S. in Electrical Engineering**, University of Florida, Gainesville, FL, USA  
-  GPA: 3.83/4.00 · 2020.01 – 2021.12  
+  2020.01 – 2021.12  
 - **B.E. in Mechatronics Engineering**, Henan University of Science and Technology, Luoyang, China  
-  GPA: 3.20/4.00 · 2014.09 – 2018.07  
+  2014.09 – 2018.07  
 
 ---
 
