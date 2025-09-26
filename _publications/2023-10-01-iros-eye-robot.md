@@ -1,6 +1,4 @@
-categories: [manuscripts]   # 期刊论文
-# 或
-categories: [conferences]   # 会议论文
+
 ---
 title: "See What a Strabismus Patient Sees Using Eye Robots"
 collection: publications
