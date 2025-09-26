@@ -1,6 +1,3 @@
-categories: [manuscripts] 
-categories: [conferences]   
-
 ---
 title: "Unveiling the Dynamics of Human Decision-Making: From Strategies to False Beliefs in Collaborative Human-Robot Co-Learning Tasks"
 collection: publications
