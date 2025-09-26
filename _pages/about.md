@@ -6,7 +6,7 @@ author_profile: true
 
 Hi, I am **Yidi Huang**, a Ph.D. candidate in Electrical and Computer Engineering at **George Mason University (GMU)**, advised by [Dr. Ningshi Yao](https://ningshiyao.com/). 
 I also work closely with [Dr. Qi Wei](https://volgenau.gmu.edu/profiles/qwei2) and [Dr. Quentin Sanders](https://www.gmu.edu/profiles/qsanders).  
-My research further builds upon the foundational theories and insights developed by [Dr. Joseph Louis Demer](https://www.uclahealth.org/providers/joseph-demer), whose work on ocular biomechanics and pulley structures has been central to this field.
+My research further builds upon the foundational theories and insights developed by [Dr. Joseph L Demer](https://www.uclahealth.org/providers/joseph-demer), whose work on ocular biomechanics and pulley structures has been central to this field.
   
 
 🔬 My Research & Work
