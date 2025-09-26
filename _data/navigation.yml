@@ -6,6 +6,8 @@
 #
 # NOTE that only one of the CV options should be selected, the first is for the
 #      Markdown formatted page while the second is generated using JSON.
+#- title: "Pictures & Videos"
+#url: /portfolio/
 
 main:
   - title: "About"
@@ -16,8 +18,6 @@ main:
     url: /talks/
   - title: "Teaching"
     url: /teaching/
-  #- title: "Pictures & Videos"
-    #url: /portfolio/
   - title: "CV"
     url: /cv/
 
