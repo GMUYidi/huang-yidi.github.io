@@ -26,7 +26,7 @@ My work combines **robot design, vision science, and math modeling** to explore:
 
 <p align="center">
   <figure style="display:inline-block; margin:10px;">
-    <img src="{{ site.baseurl }}/images/single_eye_motion.gif" width="45%" alt="Single eye motion of the robotic eye platform">
+    <img src="{{ site.baseurl }}/images/Single_eye_motion.gif" width="45%" alt="Single eye motion of the robotic eye platform">
     <figcaption style="text-align:center;"><em>Single eye motion of the robotic eye platform</em></figcaption>
   </figure>
   <figure style="display:inline-block; margin:10px;">
