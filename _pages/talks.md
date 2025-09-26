@@ -1,6 +1,6 @@
 ---
 layout: collection
-title: "Talks"
+title: "Talks and presentations"
 permalink: /talks/
 collection: talks
 entries_layout: list
