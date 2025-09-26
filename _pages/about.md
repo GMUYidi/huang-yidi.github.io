@@ -9,19 +9,16 @@ I also work closely with [Dr. Qi Wei](https://volgenau.gmu.edu/profiles/qwei2) a
 My research further builds upon the foundational theories and insights developed by [Dr. Joseph Louis Demer](https://www.uclahealth.org/providers/joseph-demer), whose work on ocular biomechanics and pulley structures has been central to this field.
   
 
-My research focuses on:  
-- 👁 **Building Robotic Eyes** – designing cable-driven robotic models that mimic how human eye muscles move  
-- 🔄 **Studying Eye Movements** – using mathematical models to explain how the eye rotates and stays stable
-- 👓 **Binocular Vision Fusion** – studying how two robotic eyes can work together to form a single, fused image like human vision  
-- 🧠 **Understanding Vision Problems** – creating simulated visualization to show how people with strabismus (eye misalignment) actually see the world  
+🔬 My Research & Work
 
----
+I design **robotic eyes** to understand how our real eyes move and how vision works.  
+My work combines **robot design, vision science, and math modeling** to explore:  
 
-👨‍💻 **I work on:**
-- **Robot design and control** – cable-driven robotic eye platforms mimicking extraocular muscles  
-- **Real-time binocular vision fusion based on robotic eye** – reconstructing patient-specific vision for diagnosis and visualization  
-- **Mathematical modeling of the human eye structure** – torque–muscle mapping under Listing’s Law and pulley constraints  
-- **Optimization and control of nonlinear systems** – force-distributed control and dynamics-based modeling  
+- 👁 **Robotic Eye Models** – building cable-driven robotic eyes that mimic how human eye muscles move  
+- 🧩 **Eye Movements & Control** – using simplified mathematical models to explain and predict how the eyes rotate and stay stable  
+- 👓 **Binocular Vision Fusion** – studying how two eyes combine images into one, and recreating this process with robots  
+- 🎯 **Replicating Strabismus Vision** – developing robotic-eye simulations that reproduce what patients with strabismus (eye misalignment) actually see, supporting diagnosis and treatment  
+- 🖥 **Real-Time Vision Fusion (Our Approach)** – we proposed a new visual synthesis method that generates **real-time binocular fused vision**, allowing doctors and researchers to directly experience how the world looks through two eyes
 
 ---
 
