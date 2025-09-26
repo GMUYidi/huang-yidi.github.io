@@ -23,6 +23,9 @@ My work combines **robot design, vision science, and math modeling** to explore:
 ---
 🎥 Demonstrations
 
+![Single eye motion](/images/singleeyemotion.gif){: .center }
+*Single eye motion of the robotic eye platform*
+
 ![Two views fused](/images/twoviews.gif){: .center }
 *Real-time binocular vision fusion*
 
