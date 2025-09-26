@@ -7,10 +7,14 @@ venue: "IEEE/RSJ International Conference on Intelligent Robots and Systems (IRO
 authors: "Yidi Huang, Qi Wei, Joseph L. Demer, et al."
 categories: [conferences]
 links:
-  - label: PDF
-    url: /files/iros2023_eye_robot.pdf
+  - label: Scholar
+    url: https://scholar.google.com/scholar_lookup?title=See%20What%20a%20Strabismus%20Patient%20Sees%20Using%20Eye%20Robots
+  - label: Journal
+    url: https://ieeexplore.ieee.org/abstract/document/10342099
   - label: Video
-    url: https://www.youtube.com/watch?v=AFu2d3NaREc
+    url: https://www.youtube.com/watch?v=kyB37qDjsQo
+  # - label: PDF
+  #   url: /files/iros2023_eye_robot.pdf
 ---
 
 A cable-driven robotic eye platform that reproduces extraocular muscle actions and renders binocular perception to visualize what strabismus patients see.
