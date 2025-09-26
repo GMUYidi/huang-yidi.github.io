@@ -21,12 +21,22 @@ My work combines **robot design, vision science, and math modeling** to explore:
 - 🖥 **Real-Time Vision Fusion (Our Approach)** – we proposed a new visual synthesis method that generates **real-time binocular fused vision**, allowing doctors and researchers to directly experience how the world looks through two eyes
 
 ---
+
 ### 🎬 Demonstrations
 
 <p align="center">
-  <img src="https://gmuyidi.github.io/huang-yidi.github.io/images/single_eye_motion.gif" width="45%" alt="Single eye motion">
-  <img src="https://gmuyidi.github.io/huang-yidi.github.io/images/two_views.gif"       width="45%" alt="Real-time binocular vision fusion">
+  <figure style="display:inline-block; margin:10px;">
+    <img src="{{ site.baseurl }}/images/single_eye_motion.gif" width="45%" alt="Single eye motion of the robotic eye platform">
+    <figcaption style="text-align:center;"><em>Single eye motion of the robotic eye platform</em></figcaption>
+  </figure>
+  <figure style="display:inline-block; margin:10px;">
+    <img src="{{ site.baseurl }}/images/two_views.gif" width="45%" alt="Real-time binocular vision fusion">
+    <figcaption style="text-align:center;"><em>Real-time binocular vision fusion</em></figcaption>
+  </figure>
 </p>
+
+---
+
 
 
 
