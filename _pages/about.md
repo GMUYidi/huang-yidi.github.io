@@ -31,7 +31,7 @@ My work combines **robot design, vision science, and math modeling** to explore:
   </figure>
   <figure style="display:inline-block; margin:10px;">
     <img src="{{ site.baseurl }}/images/two_views.gif" width="45%" alt="Real-time binocular vision fusion">
-    <figcaption style="text-align:center;"><em>Real-time binocular vision fusion</em></figcaption>
+    <figcaption style="text-align:center;"><em>Real-time Simulated vision</em></figcaption>
   </figure>
 </p>
 
