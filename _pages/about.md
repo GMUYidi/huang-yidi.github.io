@@ -40,17 +40,6 @@ My work combines **robot design, vision science, and math modeling** to explore:
 
 
 
-
-## Education
-- **Ph.D. in Electrical and Computer Engineering**, George Mason University, Fairfax, VA, USA  
-  2022.01 – 2026.06  
-- **M.S. in Electrical Engineering**, University of Florida, Gainesville, FL, USA  
-  2020.01 – 2021.12  
-- **B.E. in Mechatronics Engineering**, Henan University of Science and Technology,  China  
-  2014.09 – 2018.07  
-
----
-
 ## Contact
 - 📧 [yhuang35@gmu.edu](mailto:yhuang35@gmu.edu)  
 - 🏫 [Ciao Lab](https://ciaolab.org), George Mason University  
