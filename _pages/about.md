@@ -23,7 +23,7 @@ My work combines **robot design, vision science, and math modeling** to explore:
 ---
 🎥 Demonstrations
 
-![Two views fused](/images/two_views.gif){: .center }
+![Two views fused](/images/twoviews.gif){: .center }
 *Real-time binocular vision fusion*
 
 
