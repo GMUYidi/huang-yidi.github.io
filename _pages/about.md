@@ -23,17 +23,27 @@ My work combines **robot design, vision science, and math modeling** to explore:
 ---
 ### 🎬 Demonstrations
 
-<div style="display:flex; gap:12px; justify-content:center; flex-wrap:wrap;">
-  <figure style="max-width:460px; margin:0;">
-    <img src="{{ '/images/single_eye_motion.gif' | relative_url }}" alt="Single eye motion" style="width:100%; height:auto;">
-    <figcaption style="text-align:center;"><em>Single eye motion of the robotic eye platform</em></figcaption>
-  </figure>
-  <figure style="max-width:460px; margin:0;">
-    <img src="{{ '/images/two_views.gif' | relative_url }}" alt="Real-time binocular vision fusion" style="width:100%; height:auto;">
-    <figcaption style="text-align:center;"><em>Real-time binocular vision fusion</em></figcaption>
-  </figure>
-</div>
+<div style="display:flex; flex-wrap:wrap; gap:20px; justify-content:center;">
 
+  <figure style="max-width:400px; margin:0;">
+    <img src="{{ '/images/single_eye_motion.gif' | relative_url }}" 
+         alt="Single eye motion of the robotic eye platform" 
+         style="width:100%; height:auto;">
+    <figcaption style="text-align:center;">
+      <em>Single eye motion of the robotic eye platform</em>
+    </figcaption>
+  </figure>
+
+  <figure style="max-width:400px; margin:0;">
+    <img src="{{ '/images/two_views.gif' | relative_url }}" 
+         alt="Real-time binocular vision fusion" 
+         style="width:100%; height:auto;">
+    <figcaption style="text-align:center;">
+      <em>Real-time binocular vision fusion</em>
+    </figcaption>
+  </figure>
+
+</div>
 
 
 
