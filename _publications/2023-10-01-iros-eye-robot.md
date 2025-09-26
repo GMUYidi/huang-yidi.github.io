@@ -1,4 +1,3 @@
-
 ---
 title: "See What a Strabismus Patient Sees Using Eye Robots"
 collection: publications
