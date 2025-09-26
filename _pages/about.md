@@ -21,14 +21,19 @@ My work combines **robot design, vision science, and math modeling** to explore:
 - 🖥 **Real-Time Vision Fusion (Our Approach)** – we proposed a new visual synthesis method that generates **real-time binocular fused vision**, allowing doctors and researchers to directly experience how the world looks through two eyes
 
 ---
-🎬 Demonstrations
+### 🎬 Demonstrations
 
-<p align="center">
-  <img src="{{ '/images/single_eye_motion.gif' | relative_url }}" width="45%">
-  <img src="{{ '/images/two_views.gif' | relative_url }}" width="45%">
-</p>
+<div style="display:flex; gap:12px; justify-content:center; flex-wrap:wrap;">
+  <figure style="max-width:460px; margin:0;">
+    <img src="{{ '/images/single_eye_motion.gif' | relative_url }}" alt="Single eye motion" style="width:100%; height:auto;">
+    <figcaption style="text-align:center;"><em>Single eye motion of the robotic eye platform</em></figcaption>
+  </figure>
+  <figure style="max-width:460px; margin:0;">
+    <img src="{{ '/images/two_views.gif' | relative_url }}" alt="Real-time binocular vision fusion" style="width:100%; height:auto;">
+    <figcaption style="text-align:center;"><em>Real-time binocular vision fusion</em></figcaption>
+  </figure>
+</div>
 
-*Single eye motion* · *Real-time binocular vision fusion*
 
 
 
