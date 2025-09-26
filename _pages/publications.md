@@ -10,38 +10,32 @@ You can also find my articles on my
 
 {% assign pubs = site.publications | sort: "date" | reverse %}
 
-{% comment %} ---- Journal Articles ---- {% endcomment %}
-{% assign journals = pubs | where_exp: "p", "p.categories contains 'manuscripts'" %}
-{% if journals.size > 0 %}
 ### Journal Articles
 <hr>
-{% for p in journals %}
+{% for p in pubs %}
+  {% if p.categories contains "manuscripts" %}
 - **[{{ p.title }}]({{ p.url | relative_url }})**  
   *Published in {{ p.venue }}*  
-  **Authors:** {{ p.authors }}.  
-  {% if p.links %}
-  {% for l in p.links %}
-  [{{ l.label }}]({{ l.url }}){% if forloop.last == false %} · {% endif %}
-  {% endfor %}
-  {% endif %}
-  <br><br>
-{% endfor %}
-{% endif %}
+  **Authors:** {{ p.authors }}  
 
-{% comment %} ---- Conference Papers ---- {% endcomment %}
-{% assign confs = pubs | where_exp: "p", "p.categories contains 'conferences'" %}
-{% if confs.size > 0 %}
+  {%- if p.links -%}
+  {%- for l in p.links -%}[{{ l.label }}]({{ l.url }}){%- if forloop.last == false -%} · {%- endif -%}{%- endfor -%}
+  {%- endif -%}
+  <br><br>
+  {% endif %}
+{% endfor %}
+
 ### Conference Papers
 <hr>
-{% for p in confs %}
+{% for p in pubs %}
+  {% if p.categories contains "conferences" %}
 - **[{{ p.title }}]({{ p.url | relative_url }})**  
   *Published in {{ p.venue }}*  
-  **Authors:** {{ p.authors }}.  
-  {% if p.links %}
-  {% for l in p.links %}
-  [{{ l.label }}]({{ l.url }}){% if forloop.last == false %} · {% endif %}
-  {% endfor %}
-  {% endif %}
+  **Authors:** {{ p.authors }}  
+
+  {%- if p.links -%}
+  {%- for l in p.links -%}[{{ l.label }}]({{ l.url }}){%- if forloop.last == false -%} · {%- endif -%}{%- endfor -%}
+  {%- endif -%}
   <br><br>
+  {% endif %}
 {% endfor %}
-{% endif %}
