@@ -16,8 +16,8 @@ main:
     url: /talks/
   - title: "Teaching"
     url: /teaching/
-  - title: "Pictures & Videos"
-    url: /portfolio/
+  #- title: "Pictures & Videos"
+    #url: /portfolio/
   - title: "CV"
     url: /cv/
 
