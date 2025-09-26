@@ -15,7 +15,7 @@ author:
   avatar           : "profile.png"     # 把头像放在 /images 或根目录并保持这个文件名，或改成你的路径
   name             : "Yidi Huang"
   pronouns         :
-  bio              : "Ph.D. Candidate, Electrical & Computer Engineering, George Mason University. Research: biomimetic robotic eye, Listing’s Law, muscle-force modeling, real-time vision fusion."
+  bio              : "Ph.D. Candidate, Electrical & Computer Engineering, George Mason University."
   location         : "Fairfax, VA, USA"
   employer         : "George Mason University"
   uri              :
