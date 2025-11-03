@@ -2,6 +2,7 @@
 permalink: /
 title: "About Me"
 author_profile: true
+render_with_liquid: true
 ---
 
 Hi, I am **Yidi Huang**, a Ph.D. candidate in Electrical and Computer Engineering at **George Mason University (GMU)**, advised by [Dr. Ningshi Yao](https://ningshiyao.com/). 
