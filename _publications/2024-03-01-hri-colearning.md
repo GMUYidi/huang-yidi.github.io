@@ -6,9 +6,7 @@ date: 2024-03-01
 venue: "Companion of the ACM/IEEE International Conference on Human-Robot Interaction (HRI), 2024, pp. 632–636"
 authors: "Rahit Kumar, Yidi Huang, Ningshi Yao"
 categories: [conferences]
-links:
-  - label: Paper
-    url: https://dl.acm.org/doi/abs/10.1145/3610978.3640743                   
+links:               
   # - label: PDF
   #   url: /files/hri2024_colearning.pdf
 ---
