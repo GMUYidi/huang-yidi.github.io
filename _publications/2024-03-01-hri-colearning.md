@@ -1,5 +1,5 @@
 ---
-title: "Unveiling the Dynamics of Human Decision-Making: From Strategies to False Beliefs in Collaborative Human-Robot Co-Learning Tasks"
+title: "<a href='https://dl.acm.org/doi/abs/10.1145/3610978.3640743' target='_blank'>Unveiling the Dynamics of Human Decision-Making: From Strategies to False Beliefs in Collaborative Human-Robot Co-Learning Tasks</a>"
 collection: publications
 permalink: /publication/hri-2024-colearning
 date: 2024-03-01
