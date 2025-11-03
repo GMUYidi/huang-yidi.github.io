@@ -7,8 +7,8 @@ venue: "Companion of the ACM/IEEE International Conference on Human-Robot Intera
 authors: "Rahit Kumar, Yidi Huang, Ningshi Yao"
 categories: [conferences]
 links:               
-  # - label: PDF download
-  #   url: https://raw.githubusercontent.com/GMUYidi/huang-yidi.github.io/master/files/hri2024_colearning.pdf
+  - label: PDF download
+  url: https://raw.githubusercontent.com/GMUYidi/huang-yidi.github.io/master/files/hri2024_colearning.pdf
 ---
 
 We analyze human–robot co-learning behaviors, revealing strategy shifts and false beliefs that shape collaborative decisions.
