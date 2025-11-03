@@ -1,5 +1,5 @@
 ---
-title: "A Linear Slide Platform for 3D Ocular Ultrasound Imaging"
+title: "<a href='https://iovs.arvojournals.org/' target='_blank'>A Linear Slide Platform for 3D Ocular Ultrasound Imaging</a>"
 collection: publications
 permalink: /publication/iovs-2024-ocular-us
 date: 2024-07-01
@@ -8,7 +8,7 @@ authors: "Abdul Qureshi, Andrew Ryan, Yidi Huang, et al."
 categories: [conferences]
 links:
   - label: Paper
-    url: https://iovs.arvojournals.org/     # 替换为该文具体页面地址
+    url: https://iovs.arvojournals.org/  
   # - label: PDF
   #   url: /files/iovs2024_3d_ocular_ultrasound.pdf
 ---
