@@ -9,7 +9,7 @@ categories: [conferences]
 links:
   - label: Video
     url: https://www.youtube.com/watch?v=kyB37qDjsQo
-  # - label: PDF
+  # - label: PDF download
   #   url: https://raw.githubusercontent.com/GMUYidi/huang-yidi.github.io/master/files/iros2023_eye_robot.pdf
 ---
 
