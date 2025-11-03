@@ -39,7 +39,7 @@ My work combines **robot design, vision science, and math modeling** to explore:
 <p align="center">
   <img src="/images/robotic_eye_design.jpg" width="70%" alt="Robotic eye design overview">
   <br>
-  <em>Design of the cable-driven robotic eye platform</em>
+  <em>3D Design of the cable-driven robotic eye platform</em>
 </p>
 
 
