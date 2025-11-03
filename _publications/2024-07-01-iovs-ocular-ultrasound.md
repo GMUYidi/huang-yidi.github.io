@@ -7,8 +7,6 @@ venue: "Investigative Ophthalmology & Visual Science, 65(7): 5558, 2024"
 authors: "Abdul Qureshi, Andrew Ryan, Yidi Huang, et al."
 categories: [conferences]
 links:
-  - label: Paper
-    url: https://iovs.arvojournals.org/  
   # - label: PDF
   #   url: /files/iovs2024_3d_ocular_ultrasound.pdf
 ---
