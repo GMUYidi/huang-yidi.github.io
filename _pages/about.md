@@ -37,10 +37,11 @@ My work combines **robot design, vision science, and math modeling** to explore:
 </p>
 
 <p align="center">
-  <img src="{{ '/images/robotic_eye_design.jpg' | relative_url }}" width="70%" alt="Robotic eye design overview">
+  <img src="/images/robotic_eye_design.jpg" width="70%" alt="Robotic eye design overview">
   <br>
   <em>Design of the cable-driven robotic eye platform</em>
 </p>
+
 
 ---
 
