@@ -10,7 +10,7 @@ links:
   - label: Video
     url: https://www.youtube.com/watch?v=kyB37qDjsQo
   # - label: PDF
-  #   url: /files/iros2023_eye_robot.pdf
+  #   url: https://raw.githubusercontent.com/GMUYidi/huang-yidi.github.io/master/files/iros2023_eye_robot.pdf
 ---
 
 A cable-driven robotic eye platform that reproduces extraocular muscle actions and renders binocular perception to visualize what strabismus patients see.
