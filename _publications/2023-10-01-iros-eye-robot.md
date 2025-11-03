@@ -1,5 +1,5 @@
 ---
-title: "See What a Strabismus Patient Sees Using Eye Robots"
+title: "<a href='https://ieeexplore.ieee.org/abstract/document/10342099' target='_blank'>See What a Strabismus Patient Sees Using Eye Robots</a>"
 collection: publications
 permalink: /publication/iros-2023-eye-robot
 date: 2023-10-01
