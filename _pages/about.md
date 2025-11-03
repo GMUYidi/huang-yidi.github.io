@@ -35,6 +35,13 @@ My work combines **robot design, vision science, and math modeling** to explore:
   </figure>
 </p>
 
+<p align="center">
+  <figure style="display:block; margin:20px auto;">
+    <img src="{{ '/images/robotic_eye_design.jpg' | relative_url }}" width="70%" alt="Robotic eye design overview">
+    <figcaption style="text-align:center; margin-top:8px;">
+      <em>Design of the cable-driven robotic eye platform</em>
+    </figcaption>
+  </figure>
 ---
 
 
