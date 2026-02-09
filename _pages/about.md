@@ -23,6 +23,22 @@ My work combines **robot design, vision science, and math modeling** to explore:
 
 ---
 
+
+💼 Work Experience
+
+### Epitome Research and Innovations Inc.
+
+During my time at Epitome Research and Innovations Inc., I worked on research and development related to next-generation biomedical sensing technologies. My contributions were connected to the development of intelligent vision-related systems and wearable eye-tracking concepts.
+
+- 🔬 **Smart Contact Lens Research** – contributed to the development of a smart contact lens platform for eye tracking and physiological monitoring  
+- 👁 **Eye Tracking Integration** – explored how embedded sensing and vision technologies can be used for real-time gaze estimation  
+- 🧠 **Biomedical & Vision Applications** – supported research linking eye movement signals with health monitoring and human–machine interaction  
+
+🔗 Project details:  
+[Smart Contact Lens for Eye Tracking and Biomonitoring](https://www.epitomeri.com/projects-details?project=Smart%20Contact%20Lens%20for%20Eye%20Tracking%20and%20Biomonitoring)
+
+---
+
 ### 🎬 Demonstrations
 
 <p align="center">
