@@ -37,7 +37,7 @@ My work combines **robot design, vision science, and math modeling** to explore:
 </p>
 
 <p align="center">
-  <img src="https://huang-yidi.github.io/images/robotic_eye_design.jpg" width="70%">
+  <img src="{{ site.baseurl }}/images/robotic_eye_design.jpg" width="70%">
   <br>
   <em>3D Design of the cable-driven robotic eye platform</em>
 </p>
