@@ -47,11 +47,11 @@ During my time at Epitome Research and Innovations Inc., I worked on research an
     <figcaption style="text-align:center;"><em>Single eye motion of the robotic eye platform</em></figcaption>
   </figure>
   <figure style="display:inline-block; margin:10px;">
-    <img src="{{ site.baseurl }}/images/Behind_the_Mask_Mechanical_Structure_of_the_Robotic_Eyes.gif" width="45%" alt="Behind the Mask: Mechanical Structure of the Robotic Eyes">
+    <img src="{{ site.baseurl }}/images/Behind_the_Mask_Mechanical_Structure_of_the_Robotic_Eyes.gif" width="65%" alt="Behind the Mask: Mechanical Structure of the Robotic Eyes">
     <figcaption style="text-align:center;"><em>Single eye motion of the robotic eye platform</em></figcaption>
   </figure>
   <figure style="display:inline-block; margin:10px;">
-    <img src="{{ site.baseurl }}/images/Vergence_Movements_in_a_Robotic_Binocular_System.gif" width="45%" alt="Vergence Movements in a Robotic Binocular System">
+    <img src="{{ site.baseurl }}/images/Vergence_Movements_in_a_Robotic_Binocular_System.gif" width="65%" alt="Vergence Movements in a Robotic Binocular System">
     <figcaption style="text-align:center;"><em>Single eye motion of the robotic eye platform</em></figcaption>
   </figure>
   <figure style="display:inline-block; margin:10px;">
