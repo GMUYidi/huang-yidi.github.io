@@ -13,11 +13,8 @@ Open-loop control sends the planned command and trusts the robot to follow it. C
 
 ## Open-loop control
 
-<figure style="display:block; margin:20px auto 30px auto; width:100%; max-width:950px; text-align:center;">
-  <video controls muted playsinline preload="metadata" style="width:100%; height:auto;">
-    <source src="{{ '/images/demos/2026-kinematic-control-open-loop.mp4' | relative_url }}" type="video/mp4">
-    Your browser does not support the video tag.
-  </video>
+<figure style="display:block; margin:20px auto 30px auto; width:100%; max-width:1100px; text-align:center;">
+  <img src="{{ '/images/demos/2026-kinematic-control-open-loop.gif' | relative_url }}" style="width:100%; height:auto;" alt="Open-loop kinematic control performance">
   <figcaption><em>Open-loop gaze-direction tracking. The command is sent without using the measured tracking error to correct the motion.</em></figcaption>
 </figure>
 
@@ -27,11 +24,8 @@ The IMUs still measure the actual eye orientation, so the error can be plotted. 
 
 ## Closed-loop feedback control
 
-<figure style="display:block; margin:20px auto 30px auto; width:100%; max-width:950px; text-align:center;">
-  <video controls muted playsinline preload="metadata" style="width:100%; height:auto;">
-    <source src="{{ '/images/demos/2026-kinematic-control-closed-loop.mp4' | relative_url }}" type="video/mp4">
-    Your browser does not support the video tag.
-  </video>
+<figure style="display:block; margin:20px auto 30px auto; width:100%; max-width:1100px; text-align:center;">
+  <img src="{{ '/images/demos/2026-kinematic-control-closed-loop.gif' | relative_url }}" style="width:100%; height:auto;" alt="Closed-loop kinematic feedback control performance">
   <figcaption><em>Closed-loop gaze-direction tracking. The controller repeatedly measures the error and sends correction commands.</em></figcaption>
 </figure>
 
