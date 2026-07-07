@@ -43,33 +43,33 @@ During my time at Epitome Research and Innovations Inc., I worked on research an
 
 <div style="text-align:center;">
 
-  <figure style="display:block; margin:10px auto 30px auto; width:100%; text-align:center;">
+  <figure style="display:block; margin:20px auto 30px auto; width:90%; max-width:900px; text-align:center;">
     <img src="{{ site.baseurl }}/images/Biomimetic_Control_of_Binocular_Eye_Movements.gif" style="width:100%; height:auto;" alt="Biomimetic Control of Binocular Eye Movements">
-    <figcaption style="text-align:center;"><em>Biomimetic Control of Binocular Eye Movements</em></figcaption>
+    <figcaption><em>Biomimetic Control of Binocular Eye Movements</em></figcaption>
   </figure>
 
-  <figure style="display:block; margin:20px auto 30px auto; width:85%; max-width:900px; text-align:center;">
+  <figure style="display:block; margin:20px auto 30px auto; width:90%; max-width:900px; text-align:center;">
     <img src="{{ site.baseurl }}/images/Behind_the_Mask_Mechanical_Structure_of_the_Robotic_Eyes.gif" style="width:100%; height:auto;" alt="Behind the Mask: Mechanical Structure of the Robotic Eyes">
-    <figcaption style="text-align:center;"><em>Behind the Mask: Mechanical Structure of the Robotic Eyes</em></figcaption>
+    <figcaption><em>Behind the Mask: Mechanical Structure of the Robotic Eyes</em></figcaption>
   </figure>
 
-  <figure style="display:block; margin:20px auto 30px auto; width:85%; max-width:900px; text-align:center;">
+  <figure style="display:block; margin:20px auto 30px auto; width:90%; max-width:900px; text-align:center;">
     <img src="{{ site.baseurl }}/images/Vergence_Movements_in_a_Robotic_Binocular_System.gif" style="width:100%; height:auto;" alt="Vergence Movements in a Robotic Binocular System">
-    <figcaption style="text-align:center;"><em>Vergence Movements in a Robotic Binocular System</em></figcaption>
+    <figcaption><em>Vergence Movements in a Robotic Binocular System</em></figcaption>
   </figure>
 
-  <figure style="display:block; margin:10px auto 30px auto; width:45%; text-align:center;">
+  <figure style="display:block; margin:20px auto 30px auto; width:90%; max-width:900px; text-align:center;">
     <img src="{{ site.baseurl }}/images/two_views.gif" style="width:100%; height:auto;" alt="Real-time binocular vision fusion">
-    <figcaption style="text-align:center;"><em>Real-time Simulated vision</em></figcaption>
+    <figcaption><em>Real-time Simulated vision</em></figcaption>
   </figure>
 
 </div>
 
 <div style="text-align:center;">
 
-  <figure style="display:block; margin:10px auto; width:70%; text-align:center;">
+  <figure style="display:block; margin:20px auto 30px auto; width:90%; max-width:900px; text-align:center;">
     <img src="{{ site.baseurl }}/images/robotic_eye_design.jpg" style="width:100%; height:auto;" alt="Robotic eye design overview">
-    <figcaption style="text-align:center;">
+    <figcaption>
       <em>3D Design of the cable-driven robotic eye platform</em>
     </figcaption>
   </figure>
