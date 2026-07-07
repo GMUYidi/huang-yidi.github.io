@@ -207,6 +207,9 @@ collections:
   portfolio:
     output: true
     permalink: /:collection/:path/
+  demos:
+    output: true
+    permalink: /:collection/:path/
   talks:
     output: true
     permalink: /:collection/:path/
@@ -253,6 +256,14 @@ defaults:
       author_profile: true
       share: true
       comment: true
+  - scope:
+      path: ""
+      type: demos
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comments: false
   - scope:
       path: ""
       type: talks
