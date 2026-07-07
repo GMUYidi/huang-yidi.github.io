@@ -3,9 +3,9 @@ title: "ICRA 2026 Late-Breaking Poster: Reduced-Order Dynamics and Nonlinear Con
 collection: talks
 type: "Late-Breaking Poster"
 permalink: /talks/icra2026-late-breaking-poster/
-date: 2026-06-01
+date: 2026-05-26
 venue: "IEEE International Conference on Robotics and Automation (ICRA 2026)"
-event_dates: "June 1-5, 2026"
+event_dates: "May 26-30, 2026"
 location: "VIECON / Messe Wien, Vienna, Austria"
 posterurl: "/images/talks/2026-icra-late-breaking-poster.png"
 ---
@@ -20,7 +20,7 @@ posterurl: "/images/talks/2026-icra-late-breaking-poster.png"
 ## Event
 
 - **Conference:** IEEE International Conference on Robotics and Automation (ICRA 2026)
-- **Dates:** June 1-5, 2026
+- **Dates:** May 26-30, 2026
 - **Presentation format:** Late-Breaking Results Poster
 - **Location:** VIECON / Messe Wien, Vienna, Austria
 - **Authors:** Yidi Huang, Qi Wei, Quentin Sanders, and Ningshi Yao
