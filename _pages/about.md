@@ -46,8 +46,8 @@ During my time at Epitome Research and Innovations Inc., I worked on research an
     <img src="{{ site.baseurl }}/images/Biomimetic_Control_of_Binocular_Eye_Movements.gif" width="45%" alt="Biomimetic Control of Binocular Eye Movements">
     <figcaption style="text-align:center;"><em>Biomimetic Control of Binocular Eye Movements</em></figcaption>
   </figure>
-  <figure style="display:inline-block; margin:10px;">
-    <img src="{{ site.baseurl }}/images/Behind_the_Mask_Mechanical_Structure_of_the_Robotic_Eyes.gif" width="100%" alt="Behind the Mask: Mechanical Structure of the Robotic Eyes">
+  <figure style="display:block; margin:10px auto; width:80%; text-align:center;">
+    <img src="{{ site.baseurl }}/images/Behind_the_Mask_Mechanical_Structure_of_the_Robotic_Eyes.gif" style="width:100%; height:auto;" alt="Behind the Mask: Mechanical Structure of the Robotic Eyes">
     <figcaption style="text-align:center;"><em>Behind the Mask: Mechanical Structure of the Robotic Eyes</em></figcaption>
   </figure>
   <figure style="display:inline-block; margin:10px;">
