@@ -14,7 +14,7 @@ video_url: "https://www.youtube.com/watch?v=kyB37qDjsQo"
 <p><a href="{{ '/talks/' | relative_url }}">&larr; Back to Talks</a></p>
 
 <figure style="display:block; margin:20px auto 30px auto; width:90%; max-width:900px; text-align:center;">
-  <img src="{{ '/images/talks/iros2023-presentation.jpg' | relative_url }}" style="width:100%; height:auto;" alt="Yidi Huang presenting at IROS 2023">
+  <img src="{{ '/images/talks/2023-iros-conference-talk-presentation.jpg' | relative_url }}" style="width:100%; height:auto;" alt="Yidi Huang presenting at IROS 2023">
   <figcaption><em>Presenting the binocular vision visualization work at IROS 2023.</em></figcaption>
 </figure>
 
@@ -46,6 +46,6 @@ The presentation highlighted:
 - [IEEE Xplore record](https://ieeexplore.ieee.org/document/10342099)
 
 <figure style="display:block; margin:20px auto 30px auto; width:90%; max-width:900px; text-align:center;">
-  <img src="{{ '/images/talks/iros2023-venue.jpg' | relative_url }}" style="width:100%; height:auto;" alt="IROS 2023 venue in Detroit">
+  <img src="{{ '/images/talks/2023-iros-conference-venue.jpg' | relative_url }}" style="width:100%; height:auto;" alt="IROS 2023 venue in Detroit">
   <figcaption><em>At IROS 2023 in Detroit, Michigan.</em></figcaption>
 </figure>
