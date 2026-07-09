@@ -30,8 +30,6 @@ During my time at Epitome Research and Innovations Inc., I contributed to resear
 - **Eye-tracking integration** - explored how embedded sensing and vision technologies can support real-time gaze estimation.
 - **Biomedical and vision applications** - supported research connecting eye movement signals with health monitoring and human-machine interaction.
 
-Project details: [Smart Contact Lens for Eye Tracking and Biomonitoring](https://www.epitomeri.com/projects-details?project=Smart%20Contact%20Lens%20for%20Eye%20Tracking%20and%20Biomonitoring)
-
 ---
 
 ### 🎬 Demonstrations
