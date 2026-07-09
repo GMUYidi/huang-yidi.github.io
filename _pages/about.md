@@ -32,16 +32,46 @@ During my time at Epitome Research and Innovations Inc., I contributed to resear
 
 Project details: [Smart Contact Lens for Eye Tracking and Biomonitoring](https://www.epitomeri.com/projects-details?project=Smart%20Contact%20Lens%20for%20Eye%20Tracking%20and%20Biomonitoring)
 
-## Selected Demos
+---
 
-Selected experiment results, visualization examples, and robotic-eye demonstrations are available on the [Demos page]({{ '/demos/' | relative_url }}).
+### 🎬 Demonstrations
 
 <div style="text-align:center;">
+
   <figure style="display:block; margin:20px auto 30px auto; width:90%; max-width:900px; text-align:center;">
-    <img src="{{ '/images/robotic_eye_design.jpg' | relative_url }}" style="width:100%; height:auto;" alt="Robotic eye design overview">
-    <figcaption><em>3D design of the cable-driven robotic eye platform.</em></figcaption>
+    <img src="{{ site.baseurl }}/images/Biomimetic_Control_of_Binocular_Eye_Movements.gif" style="width:100%; height:auto;" alt="Biomimetic Control of Binocular Eye Movements">
+    <figcaption><em>Biomimetic Control of Binocular Eye Movements</em></figcaption>
   </figure>
+
+  <figure style="display:block; margin:20px auto 30px auto; width:90%; max-width:900px; text-align:center;">
+    <img src="{{ site.baseurl }}/images/Behind_the_Mask_Mechanical_Structure_of_the_Robotic_Eyes.gif" style="width:100%; height:auto;" alt="Behind the Mask: Mechanical Structure of the Robotic Eyes">
+    <figcaption><em>Behind the Mask: Mechanical Structure of the Robotic Eyes</em></figcaption>
+  </figure>
+
+  <figure style="display:block; margin:20px auto 30px auto; width:90%; max-width:900px; text-align:center;">
+    <img src="{{ site.baseurl }}/images/Vergence_Movements_in_a_Robotic_Binocular_System.gif" style="width:100%; height:auto;" alt="Vergence Movements in a Robotic Binocular System">
+    <figcaption><em>Vergence Movements in a Robotic Binocular System</em></figcaption>
+  </figure>
+
+  <figure style="display:block; margin:20px auto 30px auto; width:90%; max-width:900px; text-align:center;">
+    <img src="{{ site.baseurl }}/images/two_views.gif" style="width:100%; height:auto;" alt="Real-time binocular vision fusion">
+    <figcaption><em>Real-time Simulated vision</em></figcaption>
+  </figure>
+
 </div>
+
+<div style="text-align:center;">
+
+  <figure style="display:block; margin:20px auto 30px auto; width:90%; max-width:900px; text-align:center;">
+    <img src="{{ site.baseurl }}/images/robotic_eye_design.jpg" style="width:100%; height:auto;" alt="Robotic eye design overview">
+    <figcaption>
+      <em>3D Design of the cable-driven robotic eye platform</em>
+    </figcaption>
+  </figure>
+
+</div>
+
+---
 
 ## Contact
 
