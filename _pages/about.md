@@ -5,84 +5,46 @@ author_profile: true
 render_with_liquid: true
 ---
 
-Hi, I am **Yidi Huang**, a Ph.D. candidate in Electrical and Computer Engineering at **George Mason University (GMU)**, advised by [Dr. Ningshi Yao](https://ningshiyao.com/). 
-I also work closely with [Dr. Qi Wei](https://volgenau.gmu.edu/profiles/qwei2) and [Dr. Quentin Sanders](https://www.gmu.edu/profiles/qsanders).  
-My research further builds upon the foundational theories and insights developed by [Dr. Joseph L Demer](https://www.uclahealth.org/providers/joseph-demer), whose work on ocular biomechanics and pulley structures has been central to this field.
-  
+Hi, I am **Yidi Huang**, a Ph.D. candidate in Electrical and Computer Engineering at **George Mason University (GMU)**, advised by [Dr. Ningshi Yao](https://ningshiyao.com/).
+I also work closely with [Dr. Qi Wei](https://volgenau.gmu.edu/profiles/qwei2) and [Dr. Quentin Sanders](https://www.gmu.edu/profiles/qsanders).
+My research is informed by prior work in ocular biomechanics and pulley mechanics, including foundational contributions by [Dr. Joseph L. Demer](https://www.uclahealth.org/providers/joseph-demer).
 
-🔬 My Research & Work
+## Research
 
-I design **robotic eyes** to understand how our real eyes move and how vision works.  
-My work combines **robot design, vision science, and math modeling** to explore:  
+I design **robotic eyes** to study eye movement, binocular vision, and strabismus-related visual experience.
+My work combines **robotic hardware, vision science, mathematical modeling, and control** to explore:
 
-- 👁 **Robotic Eye Models** – building cable-driven robotic eyes that mimic how human eye muscles move  
-- 🧩 **Eye Movements & Control** – using simplified mathematical models to explain and predict how the eyes rotate and stay stable  
-- 👓 **Binocular Vision Fusion** – studying how two eyes combine images into one, and recreating this process with robots  
-- 🎯 **Replicating Strabismus Vision** – developing robotic-eye simulations that reproduce what patients with strabismus (eye misalignment) actually see, supporting diagnosis and treatment  
-- 🖥 **Real-Time Vision Fusion (Our Approach)** – we proposed a new visual synthesis method that generates **real-time binocular fused vision**, allowing doctors and researchers to directly experience how the world looks through two eyes
+- **Robotic eye platforms** - building cable-driven robotic eyes that approximate key features of human eye motion.
+- **Eye movement modeling and control** - developing mathematical models and controllers for yaw, pitch, torsion, and binocular coordination.
+- **Binocular vision visualization** - studying how two eye views can be combined into a fused visual scene.
+- **Strabismus vision simulation** - developing robotic-eye experiments that approximate patient-specific visual experiences associated with eye misalignment.
+- **Real-time visual synthesis** - creating binocular visualization pipelines that help clinicians and researchers inspect simulated visual outcomes more directly.
 
----
-
-
-💼 Work Experience
+## Work Experience
 
 ### Epitome Research and Innovations Inc.
 
-During my time at Epitome Research and Innovations Inc., I worked on research and development related to next-generation biomedical sensing technologies. My contributions were connected to the development of intelligent vision-related systems and wearable eye-tracking concepts.
+During my time at Epitome Research and Innovations Inc., I contributed to research and development for biomedical sensing and eye-tracking technologies, with emphasis on smart contact lens concepts, embedded sensing, and real-time gaze estimation.
 
-- 🔬 **Smart Contact Lens Research** – contributed to the development of a smart contact lens platform for eye tracking and physiological monitoring  
-- 👁 **Eye Tracking Integration** – explored how embedded sensing and vision technologies can be used for real-time gaze estimation  
-- 🧠 **Biomedical & Vision Applications** – supported research linking eye movement signals with health monitoring and human–machine interaction  
+- **Smart contact lens research** - contributed to the development of a smart contact lens platform for eye tracking and physiological monitoring.
+- **Eye-tracking integration** - explored how embedded sensing and vision technologies can support real-time gaze estimation.
+- **Biomedical and vision applications** - supported research connecting eye movement signals with health monitoring and human-machine interaction.
 
-🔗 Project details:  
-[Smart Contact Lens for Eye Tracking and Biomonitoring](https://www.epitomeri.com/projects-details?project=Smart%20Contact%20Lens%20for%20Eye%20Tracking%20and%20Biomonitoring)
+Project details: [Smart Contact Lens for Eye Tracking and Biomonitoring](https://www.epitomeri.com/projects-details?project=Smart%20Contact%20Lens%20for%20Eye%20Tracking%20and%20Biomonitoring)
 
----
+## Selected Demos
 
-### 🎬 Demonstrations
-
-<div style="text-align:center;">
-
-  <figure style="display:block; margin:20px auto 30px auto; width:90%; max-width:900px; text-align:center;">
-    <img src="{{ site.baseurl }}/images/Biomimetic_Control_of_Binocular_Eye_Movements.gif" style="width:100%; height:auto;" alt="Biomimetic Control of Binocular Eye Movements">
-    <figcaption><em>Biomimetic Control of Binocular Eye Movements</em></figcaption>
-  </figure>
-
-  <figure style="display:block; margin:20px auto 30px auto; width:90%; max-width:900px; text-align:center;">
-    <img src="{{ site.baseurl }}/images/Behind_the_Mask_Mechanical_Structure_of_the_Robotic_Eyes.gif" style="width:100%; height:auto;" alt="Behind the Mask: Mechanical Structure of the Robotic Eyes">
-    <figcaption><em>Behind the Mask: Mechanical Structure of the Robotic Eyes</em></figcaption>
-  </figure>
-
-  <figure style="display:block; margin:20px auto 30px auto; width:90%; max-width:900px; text-align:center;">
-    <img src="{{ site.baseurl }}/images/Vergence_Movements_in_a_Robotic_Binocular_System.gif" style="width:100%; height:auto;" alt="Vergence Movements in a Robotic Binocular System">
-    <figcaption><em>Vergence Movements in a Robotic Binocular System</em></figcaption>
-  </figure>
-
-  <figure style="display:block; margin:20px auto 30px auto; width:90%; max-width:900px; text-align:center;">
-    <img src="{{ site.baseurl }}/images/two_views.gif" style="width:100%; height:auto;" alt="Real-time binocular vision fusion">
-    <figcaption><em>Real-time Simulated vision</em></figcaption>
-  </figure>
-
-</div>
+Selected experiment results, visualization examples, and robotic-eye demonstrations are available on the [Demos page]({{ '/demos/' | relative_url }}).
 
 <div style="text-align:center;">
-
   <figure style="display:block; margin:20px auto 30px auto; width:90%; max-width:900px; text-align:center;">
-    <img src="{{ site.baseurl }}/images/robotic_eye_design.jpg" style="width:100%; height:auto;" alt="Robotic eye design overview">
-    <figcaption>
-      <em>3D Design of the cable-driven robotic eye platform</em>
-    </figcaption>
+    <img src="{{ '/images/robotic_eye_design.jpg' | relative_url }}" style="width:100%; height:auto;" alt="Robotic eye design overview">
+    <figcaption><em>3D design of the cable-driven robotic eye platform.</em></figcaption>
   </figure>
-
 </div>
-
-
----
-
-
-
 
 ## Contact
-- 📧 [yhuang35@gmu.edu](mailto:yhuang35@gmu.edu)  
-- 🏫 [Ciao Lab](https://ciaolab.org), George Mason University  
-- 🔗 [Google Scholar](https://scholar.google.com/citations?user=YxVdWQoAAAAJ), [GitHub](https://github.com/GMUYidi), [LinkedIn](https://www.linkedin.com/in/yidi-huang-86846b305)  
+
+- Email: [yhuang35@gmu.edu](mailto:yhuang35@gmu.edu)
+- Lab: [CIAO Lab](https://ciaolab.org), George Mason University
+- Profiles: [Google Scholar](https://scholar.google.com/citations?user=YxVdWQoAAAAJ), [GitHub](https://github.com/GMUYidi), [LinkedIn](https://www.linkedin.com/in/yidi-huang-86846b305)
