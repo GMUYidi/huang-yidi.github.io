@@ -22,7 +22,7 @@ My work combines **robotic hardware, vision science, mathematical modeling, and 
 
 ## Work Experience
 
-### Epitome Research and Innovations Inc.
+### [Epitome Research and Innovations Inc.](https://www.epitomeri.com/)
 
 During my time at Epitome Research and Innovations Inc., I contributed to research and development for biomedical sensing and eye-tracking technologies, with emphasis on smart contact lens concepts, embedded sensing, and real-time gaze estimation.
 
