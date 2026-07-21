@@ -1,18 +1,16 @@
 ---
-layout: single
-title: "Demos"
+layout: null
 permalink: /demos/
-author_profile: true
 ---
-
-{% assign demos = site.demos | sort: "date" | reverse %}
-
-{% if demos.size > 0 %}
-<ul>
-{% for demo in demos %}
-  <li><strong><a href="{{ demo.url | relative_url }}">{{ demo.title }}</a></strong></li>
-{% endfor %}
-</ul>
-{% else %}
-More demo results will be added here soon.
-{% endif %}
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="refresh" content="0; url={{ '/research/' | relative_url }}">
+    <link rel="canonical" href="{{ '/research/' | absolute_url }}">
+    <title>Redirecting to Research</title>
+  </head>
+  <body>
+    <p>Redirecting to <a href="{{ '/research/' | relative_url }}">Research</a>.</p>
+  </body>
+</html>

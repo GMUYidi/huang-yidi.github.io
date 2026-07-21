@@ -9,7 +9,7 @@ Hi, I am **Yidi Huang**, a Ph.D. candidate in Electrical and Computer Engineerin
 I also work closely with [Dr. Qi Wei](https://volgenau.gmu.edu/profiles/qwei2) and [Dr. Quentin Sanders](https://www.gmu.edu/profiles/qsanders).
 My research is informed by prior work in ocular biomechanics and pulley mechanics, including foundational contributions by [Dr. Joseph L. Demer](https://www.uclahealth.org/providers/joseph-demer).
 
-## Research
+## [Research]({{ '/research/' | relative_url }})
 
 I design **robotic eyes** to study eye movement, binocular vision, and strabismus-related visual experience.
 My work combines **robotic hardware, vision science, mathematical modeling, and control** to explore:

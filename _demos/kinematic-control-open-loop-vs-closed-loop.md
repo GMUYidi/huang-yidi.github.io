@@ -2,10 +2,10 @@
 title: "Kinematic Control Performance: Open-Loop vs. Closed-Loop"
 date: 2026-07-07
 summary: "A visual comparison of open-loop and closed-loop kinematic control for the robotic binocular eye platform."
-permalink: /demos/kinematic-control-open-loop-vs-closed-loop/
+permalink: /research/kinematic-control-open-loop-vs-closed-loop/
 ---
 
-<p><a href="{{ '/demos/' | relative_url }}">&larr; Back to Demos</a></p>
+<p><a href="{{ '/research/' | relative_url }}">&larr; Back to Research</a></p>
 
 This demo compares two ways of controlling the robotic eyes: **open-loop kinematic control** and **closed-loop feedback control**. Both methods start from the same idea: choose a desired gaze direction, convert that target into motor commands, and move the robotic eyes. The difference is what happens after the command is sent.
 

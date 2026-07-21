@@ -2,10 +2,10 @@
 title: "Eye Dynamics Model: System States and Control Inputs"
 date: 2026-07-07
 summary: "A visual explanation of the robotic-eye dynamical model, including the six state variables and torque inputs."
-permalink: /demos/eye-dynamics-model-system-states/
+permalink: /research/eye-dynamics-model-system-states/
 ---
 
-<p><a href="{{ '/demos/' | relative_url }}">&larr; Back to Demos</a></p>
+<p><a href="{{ '/research/' | relative_url }}">&larr; Back to Research</a></p>
 
 This demo explains the dynamical model behind the robotic eye platform. The goal is not to derive the equations step by step, but to make the system easy to read: what the model tracks, what drives the motion, and how the variables connect to eye rotation.
 

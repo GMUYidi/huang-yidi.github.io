@@ -2,10 +2,10 @@
 title: "Binocular Visualization Result: Healthy vs. Strabismus"
 date: 2026-07-07
 summary: "A side-by-side experimental visualization comparing healthy binocular perception with a strabismus-patient view."
-permalink: /demos/matched-healthy-binocular-visualization-result/
+permalink: /research/matched-healthy-binocular-visualization-result/
 ---
 
-<p><a href="{{ '/demos/' | relative_url }}">&larr; Back to Demos</a></p>
+<p><a href="{{ '/research/' | relative_url }}">&larr; Back to Research</a></p>
 
 This demo compares two binocular visualization results generated from the robotic-eye visualization pipeline. The first clip shows the expected binocular field for a healthy visual condition. The second clip shows the matched visualization for a strabismus-patient condition, where eye misalignment changes how the scene is projected and fused.
 
