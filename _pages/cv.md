@@ -63,7 +63,8 @@ author_profile: true
 1. Y. Huang, Q. Wei, J. L. Demer, et al. *See What a Strabismus Patient Sees Using Eye Robots*, IEEE/RSJ IROS, 2023.  
 2. A. Qureshi, A. Ryan, Y. Huang, et al. *A Linear Slide Platform for 3D Ocular Ultrasound Imaging*, IOVS, 65(7): 5558, 2024.  
 3. R. Kumar, Y. Huang, N. Yao. *Unveiling the Dynamics of Human Decision-Making*, ACM/IEEE HRI Companion, 2024.  
-4. Y. Huang, N. Yao, Q. Wei. *A Novel Cable-driven Eye Robot for Human Vision Visualization and Strabismus Diagnosis*, Scientific Reports (under review).  
+4. Y. Huang, Q. Wei, Q. Sanders, N. Yao. *Reduced-Order Dynamics and Nonlinear Feedback Control for Human Eye Movements Demonstrating Equivalence of Listing's Law and Half-Angle Rule*, PLOS ONE (under review).
+5. Y. Huang, Q. Wei, J. L. Demer, N. Yao. *A Cable-Driven Robotic Eye Platform for Hardware-in-the-Loop Binocular Misalignment Visualization*, IEEE Transactions on Medical Robotics and Bionics (under review).
 
 ---
 

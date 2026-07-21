@@ -15,7 +15,11 @@ You can also find my articles on my
 {% for p in pubs %}
   {% if p.categories contains "manuscripts" %}
 - **[{{ p.title }}]({{ p.url | relative_url }})**  
+  {% if p.status %}
+  *{{ p.status }} at {{ p.venue }}*<br>
+  {% else %}
   *Published in {{ p.venue }}*  
+  {% endif %}
   **Authors:** {{ p.authors }}  
 
   {%- if p.links -%}
@@ -30,7 +34,11 @@ You can also find my articles on my
 {% for p in pubs %}
   {% if p.categories contains "conferences" %}
 - **[{{ p.title }}]({{ p.url | relative_url }})**  
+  {% if p.status %}
+  *{{ p.status }} at {{ p.venue }}*<br>
+  {% else %}
   *Published in {{ p.venue }}*  
+  {% endif %}
   **Authors:** {{ p.authors }}  
 
   {%- if p.links -%}
