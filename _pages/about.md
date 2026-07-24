@@ -42,8 +42,8 @@ During my time at Epitome Research and Innovations Inc., I contributed to resear
   </figure>
 
   <figure style="display:block; margin:20px auto 30px auto; width:90%; max-width:900px; text-align:center;">
-    <img src="{{ site.baseurl }}/images/Behind_the_Mask_Mechanical_Structure_of_the_Robotic_Eyes.gif" style="width:100%; height:auto;" alt="Behind the Mask: Mechanical Structure of the Robotic Eyes">
-    <figcaption><em>Behind the Mask: Mechanical Structure of the Robotic Eyes</em></figcaption>
+    <img src="{{ site.baseurl }}/images/Real_Time_Robotic_Eye_Control_with_Binocular_Camera_Views.gif" style="width:100%; height:auto;" alt="Real-Time Robotic Eye Control with Binocular Camera Views">
+    <figcaption><em>Real-Time Robotic Eye Control with Binocular Camera Views</em></figcaption>
   </figure>
 
   <figure style="display:block; margin:20px auto 30px auto; width:90%; max-width:900px; text-align:center;">
