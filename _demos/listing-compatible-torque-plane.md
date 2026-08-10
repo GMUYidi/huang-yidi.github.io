@@ -9,7 +9,7 @@ permalink: /research/listing-compatible-torque-plane/
 
 This project studies a simple question with a surprisingly deep answer: when the eye follows a target, what kind of 3D torque can produce a biologically compatible eye movement?
 
-Many eye-movement studies describe where the eye is allowed to point and how its rotation axis moves. My work pushes the same idea one level deeper, into dynamics. If an eye movement follows Listing's law and the half-angle rule, then the net torque driving that motion is not arbitrary. It is also constrained to a plane.
+Many eye-movement studies describe where the eye is allowed to point and how its rotation axis moves. Classical examples include direct measurements of human ocular torsion by [Ferman, Collewijn, and Van den Berg](https://doi.org/10.1016/0042-6989(87)90009-5), and the 3D eye-position and velocity-axis analysis by [Tweed and Vilis](https://doi.org/10.1016/0042-6989(90)90131-4). My work pushes the same idea one level deeper, into dynamics. If an eye movement follows Listing's law and the half-angle rule, then the net torque driving that motion is not arbitrary. It is also constrained to a plane.
 
 ## Why eye torsion matters
 
@@ -24,9 +24,9 @@ Torsion is not just a visual curiosity. It helps keep eye orientation coordinate
 
 ## Listing's law: where the eye can be
 
-Listing's law describes a geometric regularity of human eye orientation. For ordinary gaze shifts from a primary forward-looking direction, the eye's 3D orientation can be represented as a rotation about an axis that lies in a single plane, called Listing's plane.
+Listing's law describes a geometric regularity of human eye orientation. For ordinary gaze shifts from a primary forward-looking direction, the eye's 3D orientation can be represented as a rotation about an axis that lies in a single plane, called Listing's plane. A concise review of this idea and its clinical meaning is given by [Wong](https://doi.org/10.1016/j.survophthal.2004.08.002).
 
-A useful way to write this is to describe the eye by three angles:
+A useful way to write this is to describe the eye by three angles, following the usual language of 3D rotation kinematics reviewed by [Haslwanter](https://doi.org/10.1016/0042-6989(94)00257-M):
 
 $$
 q(t)=
@@ -58,7 +58,7 @@ The equation says that valid eye orientations live on a restricted surface insid
 
 ## Half-angle rule: how the eye can move
 
-The next question is not just where the eye is, but how it moves between gaze directions. The half-angle rule describes a related constraint on angular velocity. During a compatible eye movement, the instantaneous velocity axis is also organized by a plane. This velocity plane changes with the current gaze direction and is often described as a half-angle plane.
+The next question is not just where the eye is, but how it moves between gaze directions. The half-angle rule describes a related constraint on angular velocity. During a compatible eye movement, the instantaneous velocity axis is also organized by a plane. This velocity plane changes with the current gaze direction and is often described as a half-angle plane. The velocity-axis relationship was measured and modeled in 3D saccades by [Tweed and Vilis](https://doi.org/10.1016/0042-6989(90)90131-4), and later examined for both saccades and pursuit by [Thurtell, Joshi, and Walker](https://doi.org/10.1016/j.visres.2012.02.012).
 
 Mathematically, this comes from differentiating the Listing constraint:
 
@@ -79,7 +79,7 @@ In plain language: if yaw and pitch are changing, torsion velocity is not indepe
 
 ## My extension: a compatible torque plane
 
-My contribution is to extend this chain from orientation and velocity to torque. Torque is the turning command applied to the eye. It is the dynamic level of the problem: not only what motion is geometrically allowed, but what physical input can generate that motion.
+My contribution is to extend this chain from orientation and velocity to torque. Torque is the turning command applied to the eye. It is the dynamic level of the problem: not only what motion is geometrically allowed, but what physical input can generate that motion. The derivation below is my extension of the kinematic constraints into a dynamics constraint.
 
 For a rotating eye model, the dynamics can be written compactly as:
 
@@ -136,3 +136,11 @@ The short version is:
 | Torque | This work | The compatible net torque lies in a dynamics-dependent plane. |
 
 In one sentence, Listing's law says where the eye can be, the half-angle rule says how it can move, and the torque-plane extension says what kind of physical turning input can produce that motion.
+
+## References
+
+- [Ferman, L., Collewijn, H., & Van den Berg, A. V. (1987). "A direct test of Listing's law--I. Human ocular torsion measured in static tertiary positions." *Vision Research*, 27(6), 929-938.](https://doi.org/10.1016/0042-6989(87)90009-5)
+- [Tweed, D., & Vilis, T. (1990). "Geometric relations of eye position and velocity vectors during saccades." *Vision Research*, 30(1), 111-127.](https://doi.org/10.1016/0042-6989(90)90131-4)
+- [Haslwanter, T. (1995). "Mathematics of three-dimensional eye rotations." *Vision Research*, 35(12), 1727-1739.](https://doi.org/10.1016/0042-6989(94)00257-M)
+- [Thurtell, M. J., Joshi, A. C., & Walker, M. F. (2012). "Three-dimensional kinematics of saccadic and pursuit eye movements in humans: relationship between Donders' and Listing's laws." *Vision Research*, 60, 7-15.](https://doi.org/10.1016/j.visres.2012.02.012)
+- [Wong, A. M. F. (2004). "Listing's law: clinical significance and implications for neural control." *Survey of Ophthalmology*, 49(6), 563-575.](https://doi.org/10.1016/j.survophthal.2004.08.002)
