@@ -7,7 +7,12 @@ permalink: /research/matched-healthy-binocular-visualization-result/
 
 <p><a href="{{ '/research/' | relative_url }}">&larr; Back to Research</a></p>
 
-This demo compares two binocular visualization results generated from the robotic-eye visualization pipeline. The first clip shows the expected binocular field for a healthy visual condition. The second clip shows the matched visualization for a strabismus-patient condition, where eye misalignment changes how the scene is projected and fused.
+This demo compares two binocular visualization results generated from the robotic-eye visualization pipeline. Before generating the visualization clips, patient-specific eye-alignment data were replayed on the robotic eye platform so the two robotic eyes could reproduce the matched binocular viewing condition. The platform then provided the left-eye and right-eye camera views used to create the healthy reference and strabismus-patient visualizations below.
+
+<figure style="display:block; margin:20px auto 30px auto; width:90%; max-width:900px; text-align:center;">
+  <img src="{{ '/images/demos/patient_data_driven_robotic_eye_replay2.png' | relative_url }}" style="width:100%; height:auto;" alt="Patient-data-driven robotic eye replay platform">
+  <figcaption><em>Patient-data-driven robotic eye replay: recorded ocular alignment data are used to drive the robotic binocular platform before rendering the visualization results.</em></figcaption>
+</figure>
 
 ## Healthy binocular view
 
