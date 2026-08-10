@@ -26,6 +26,11 @@ Torsion is not just a visual curiosity. It helps keep eye orientation coordinate
 
 Listing's law describes a geometric regularity of human eye orientation. For ordinary gaze shifts from a primary forward-looking direction, the eye's 3D orientation can be represented as a rotation about an axis that lies in a single plane, called Listing's plane. A concise review of this idea and its clinical meaning is given by [Wong](https://doi.org/10.1016/j.survophthal.2004.08.002).
 
+<figure style="display:block; margin:20px auto 30px auto; width:80%; max-width:520px; text-align:center;">
+  <img src="{{ '/images/demos/2026-listing-law-plane.png' | relative_url }}" style="width:100%; height:auto;" alt="Listing's plane illustration">
+  <figcaption><em>Listing's law: for different gaze directions, the eye orientation can be represented by rotation axes that stay in Listing's plane.</em></figcaption>
+</figure>
+
 A useful way to write this is to describe the eye by three angles, following the usual language of 3D rotation kinematics reviewed by [Haslwanter](https://doi.org/10.1016/0042-6989(94)00257-M):
 
 $$
@@ -37,7 +42,7 @@ q(t)=
 \end{bmatrix},
 $$
 
-where &#92;(\psi&#92;) is yaw, &#92;(\theta&#92;) is pitch, and &#92;(\phi&#92;) is torsion. Listing's law does not let &#92;(\phi&#92;) be chosen freely. Instead, torsion is determined by yaw and pitch:
+Here, `psi` is yaw, `theta` is pitch, and `phi` is torsion. Listing's law does not let torsion be chosen freely. Instead, torsion is determined by yaw and pitch:
 
 $$
 \phi(t)=\sin^{-1}\!\left(
@@ -48,75 +53,75 @@ $$
 
 In plain language: once the eye chooses a horizontal and vertical gaze direction, Listing's law tells the eye how much torsion is compatible with that gaze.
 
-This can be written as a constraint:
-
-$$
-g(q)=\phi-f(\psi,\theta)=0.
-$$
-
-The equation says that valid eye orientations live on a restricted surface inside the full 3D rotation space.
-
 ## Half-angle rule: how the eye can move
 
-The next question is not just where the eye is, but how it moves between gaze directions. The half-angle rule describes a related constraint on angular velocity. During a compatible eye movement, the instantaneous velocity axis is also organized by a plane. This velocity plane changes with the current gaze direction and is often described as a half-angle plane. The velocity-axis relationship was measured and modeled in 3D saccades by [Tweed and Vilis](https://doi.org/10.1016/0042-6989(90)90131-4), and later examined for both saccades and pursuit by [Thurtell, Joshi, and Walker](https://doi.org/10.1016/j.visres.2012.02.012).
+The next question is not just where the eye is, but how it moves between gaze directions. The half-angle rule describes a related constraint on angular velocity. During a compatible eye movement, the instantaneous velocity axis is also organized by a plane. This velocity-axis relationship was measured and modeled in 3D saccades by [Tweed and Vilis](https://doi.org/10.1016/0042-6989(90)90131-4), and later examined for both saccades and pursuit by [Thurtell, Joshi, and Walker](https://doi.org/10.1016/j.visres.2012.02.012).
 
-Mathematically, this comes from differentiating the Listing constraint:
+<figure style="display:block; margin:20px auto 30px auto; width:90%; max-width:760px; text-align:center;">
+  <img src="{{ '/images/demos/2026-half-angle-rule-velocity-plane.png' | relative_url }}" style="width:100%; height:auto;" alt="Half-angle rule velocity plane illustration">
+  <figcaption><em>Half-angle rule: the current angular-velocity axis lies in a velocity plane whose normal direction is the sum of the primary gaze direction and the current gaze direction.</em></figcaption>
+</figure>
+
+In a compact geometric form, let `g0` be the primary gaze direction, `g` be the current gaze direction, and `omega` be the current angular-velocity axis. The half-angle rule says that `omega` must lie in the plane whose normal vector is `g + g0`:
 
 $$
-\dot{g}(q,\dot{q})=0.
+(\mathbf{g}+\mathbf{g}_0)^T\boldsymbol{\omega}=0.
 $$
 
-For the torsion angle, this gives:
-
-$$
-\dot{\phi} =
-\frac{\sin\theta}{1+\cos\theta\cos\psi}\dot{\psi}
-+
-\frac{\sin\psi}{1+\cos\theta\cos\psi}\dot{\theta}.
-$$
-
-In plain language: if yaw and pitch are changing, torsion velocity is not independent. The twisting speed must follow from the left-right and up-down motion in a precise way. That is why the velocity axis stays in a structured plane instead of pointing anywhere in 3D.
+The dot product being zero means the velocity axis is perpendicular to the normal vector `g + g0`. In other words, the eye can rotate with many possible speeds, but its instantaneous rotation axis must stay inside this specific plane.
 
 ## My extension: a compatible torque plane
 
-My contribution is to extend this chain from orientation and velocity to torque. Torque is the turning command applied to the eye. It is the dynamic level of the problem: not only what motion is geometrically allowed, but what physical input can generate that motion. The derivation below is my extension of the kinematic constraints into a dynamics constraint.
+My contribution is to extend this chain from orientation and velocity to torque. Torque is the turning command applied to the eye. If Listing's law constrains the eye's orientation, and the half-angle rule constrains the eye's velocity axis, then the natural dynamics question is: what constraint should the torque satisfy?
 
-For a rotating eye model, the dynamics can be written compactly as:
-
-$$
-M(q)\ddot{q}+h(q,\dot{q})=\tau,
-$$
-
-where &#92;(M(q)&#92;) describes rotational inertia, &#92;(h(q,\dot{q})&#92;) collects velocity-dependent effects, and &#92;(\tau&#92;) is the net torque applied to the eye.
-
-If the eye must remain compatible with Listing's law, then the constraint must hold not only for position and velocity, but also for acceleration:
+In a clean version of the model, I ask the torque generated by each unit muscle pull to satisfy a Listing-compatible torque condition. Because torques add as vectors, if each unit-pull torque stays in the compatible plane, their combined net torque also stays compatible. For the state convention used in my model, `x1` is yaw, `x3` is pitch, and the torque components are yaw torque, pitch torque, and torsional torque:
 
 $$
-g(q)=0,\qquad \dot{g}(q,\dot{q})=0,\qquad \ddot{g}(q,\dot{q},\ddot{q})=0.
+\tau =
+\begin{bmatrix}
+\tau_\psi \\
+\tau_\theta \\
+\tau_\phi
+\end{bmatrix}.
 $$
 
-Substituting the dynamics into the acceleration constraint links the allowed torque to the eye's current state:
+The key condition is:
 
 $$
-\nabla g(q)^T M(q)^{-1}\bigl(\tau-h(q,\dot{q})\bigr)
-+\dot{q}^T H_g(q)\dot{q}=0.
+\tau_\phi =
+\frac{-\tau_\theta \sin(x_1)\cos(x_3)+\tau_\psi \sin(x_3)}
+{1+\cos(x_1)\cos(x_3)}.
 $$
 
-This expression can be read in a simpler form:
+This equation says that the torsional torque is not free. Once the current eye orientation and the yaw/pitch torque components are known, the torsional torque must take a compatible value. Rearranging the same condition gives:
 
 $$
-n_\tau(q)^T\tau = c(q,\dot{q}).
+-\sin(x_3)\tau_\psi
++\sin(x_1)\cos(x_3)\tau_\theta
++\bigl(1+\cos(x_1)\cos(x_3)\bigr)\tau_\phi
+=0.
 $$
 
-The important idea is geometric. A linear equation in a 3D torque vector defines a plane. After accounting for the current motion-dependent terms, the Listing-compatible part of the net torque must satisfy:
+Now define:
 
 $$
-n_\tau(q)^T\tau_{\rm comp}=0,
-\qquad
-\tau_{\rm comp}\in\Pi_\tau(q).
+c(x)=
+\begin{bmatrix}
+-\sin(x_3) \\
+\sin(x_1)\cos(x_3) \\
+1+\cos(x_1)\cos(x_3)
+\end{bmatrix}.
 $$
 
-So the torque vector is not pointing along the plane's normal direction. It lies inside the torque plane. This is the dynamic counterpart of Listing's plane and the half-angle velocity plane.
+Then the whole condition becomes:
+
+$$
+c(x)^T\tau=0.
+$$
+
+This is the core idea. A dot product equal to zero means the torque vector must be perpendicular to `c(x)`. Therefore `c(x)` is the normal vector of a plane, and the allowable torque vector must lie inside that plane. This is why I call it a Listing-compatible torque plane.
+
+So the torque vector is not pointing along the plane's normal direction. It has zero component along that normal direction. This makes the torque plane the dynamic counterpart of Listing's plane and the half-angle velocity plane.
 
 <figure style="display:block; margin:20px auto 30px auto; width:100%; max-width:1120px; text-align:center;">
   <img src="{{ '/images/demos/2026-listing-velocity-torque-planes.gif' | relative_url }}" style="width:100%; height:auto;" alt="Animation comparing Listing plane, half-angle plane, and torque plane">
@@ -132,8 +137,8 @@ The short version is:
 | Level | Classical idea | Plane constraint |
 | --- | --- | --- |
 | Orientation | Listing's law | The rotation axis lies in Listing's plane. |
-| Velocity | Half-angle rule | The angular velocity axis lies in a gaze-dependent plane. |
-| Torque | This work | The compatible net torque lies in a dynamics-dependent plane. |
+| Velocity | Half-angle rule | The angular velocity axis lies in the plane normal to `g + g0`. |
+| Torque | This work | The compatible net torque lies in the plane normal to `c(x)`. |
 
 In one sentence, Listing's law says where the eye can be, the half-angle rule says how it can move, and the torque-plane extension says what kind of physical turning input can produce that motion.
 
