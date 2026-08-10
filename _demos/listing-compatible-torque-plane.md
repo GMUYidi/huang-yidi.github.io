@@ -37,7 +37,7 @@ q(t)=
 \end{bmatrix},
 $$
 
-where \(\psi\) is yaw, \(\theta\) is pitch, and \(\phi\) is torsion. Listing's law does not let \(\phi\) be chosen freely. Instead, torsion is determined by yaw and pitch:
+where &#92;(\psi&#92;) is yaw, &#92;(\theta&#92;) is pitch, and &#92;(\phi&#92;) is torsion. Listing's law does not let &#92;(\phi&#92;) be chosen freely. Instead, torsion is determined by yaw and pitch:
 
 $$
 \phi(t)=\sin^{-1}\!\left(
@@ -87,7 +87,7 @@ $$
 M(q)\ddot{q}+h(q,\dot{q})=\tau,
 $$
 
-where \(M(q)\) describes rotational inertia, \(h(q,\dot{q})\) collects velocity-dependent effects, and \(\tau\) is the net torque applied to the eye.
+where &#92;(M(q)&#92;) describes rotational inertia, &#92;(h(q,\dot{q})&#92;) collects velocity-dependent effects, and &#92;(\tau&#92;) is the net torque applied to the eye.
 
 If the eye must remain compatible with Listing's law, then the constraint must hold not only for position and velocity, but also for acceleration:
 
