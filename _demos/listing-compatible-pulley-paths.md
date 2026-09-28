@@ -25,7 +25,7 @@ A pulley changes the direction in which a muscle pulls on the eye. Moving it cha
 
 <figure class="pulley-article-figure">
   <a href="{{ '/images/demos/2026-pulley-geometry-construction.png' | relative_url }}"><img src="{{ '/images/demos/2026-pulley-geometry-construction.png' | relative_url }}" width="3080" height="2080" loading="lazy" alt="Top views of a right eye at primary and horizontal gaze, showing how moving pulley points redirect rectus pulling forces."></a>
-  <figcaption><em>From Chapter 5: the eye attachments rotate, while the selected pulley positions change the pulling directions. Red rings are pulleys; green arrows are muscle forces. This right-eye schematic illustrates the same rule used by the left-eye model above.</em></figcaption>
+  <figcaption><em>The eye attachments rotate, while the selected pulley positions change the pulling directions. Red rings are pulleys; green arrows are muscle forces. This right-eye schematic illustrates the same rule used by the left-eye model above.</em></figcaption>
 </figure>
 
 Listing's law couples the eye's horizontal, vertical, and twisting rotations. Under spherical inertia, compatible motion also has a torque-plane condition, building on the common velocity and torque plane described by [Kahagalage, Aulisa, and Ghosh (2014)](https://doi.org/10.3182/20140824-6-ZA-1003.02650). My contribution here is to turn that condition into a **design rule for each individual rectus force path**.
@@ -66,10 +66,10 @@ Here <b>P</b><sub>m</sub> is the pulley position, &#8467;<sub>m</sub> is the sel
 
 With spherical inertia, compatible initial orientation and velocity, and only the four modeled rectus torques, applying this rule at every actual pose preserves Listing-compatible motion. Tension magnitudes still determine the target and time course. This is an idealized geometric design condition: it does not identify a unique anatomical pulley location or specify a mechanism that moves the guides. Exact attachment tangency is a modeling choice; MRI measurements have found departures from it ([Clark and Demer, 2018](https://doi.org/10.1016/j.ajo.2018.07.002)).
 
-Chapter 5 also tests the construction in full dynamics. These simulations let prescribed tensions generate the motion, rather than supplying a Listing torsion angle at each frame. They compare moving pulley positions with the same positions held fixed at the start.
+To test the design dynamically, I simulate eye motion driven by prescribed muscle tensions, without setting the torsion angle at each frame. I compare moving pulley positions with the same positions held fixed at the start.
 
 <details>
-  <summary>Force-driven simulation comparison from Chapter 5</summary>
+  <summary>Force-driven simulation comparison</summary>
   <figure class="pulley-article-figure">
     <a href="{{ '/images/demos/2026-pulley-constraint-preservation.png' | relative_url }}"><img src="{{ '/images/demos/2026-pulley-constraint-preservation.png' | relative_url }}" width="1917" height="2000" loading="lazy" alt="Three prescribed tension families, resulting eye rotations, and Listing residuals comparing designed moving pulley geometry with pulleys frozen at their initial positions."></a>
     <figcaption><em>Each pair uses the same tensions and initial state. Solid curves use the designed moving geometry; dashed curves hold the pulleys at their initial positions. The right column measures departure from Listing's law. These are numerical model tests, with a 20 mm segment length and a stated wrapping treatment for the fixed-position comparison.</em></figcaption>
