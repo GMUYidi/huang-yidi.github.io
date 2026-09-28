@@ -57,7 +57,7 @@ $$
 \end{aligned}
 $$
 
-Here <b>P</b><sub>m</sub> is the pulley position, &ell;<sub>m</sub> is the selected segment length, and the double bars mean vector length. The formula applies when its denominator is nonzero. The admissible pulley plane passes through the eye center and contains <b>h</b> and <b>s</b><sub>m</sub>; its normal is their cross product.
+Here <b>P</b><sub>m</sub> is the pulley position, &#8467;<sub>m</sub> is the selected segment length, and the double bars mean vector length. The formula applies when its denominator is nonzero. The admissible pulley plane passes through the eye center and contains <b>h</b> and <b>s</b><sub>m</sub>; its normal is their cross product.
 
   </div>
 </details>
