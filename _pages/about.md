@@ -11,14 +11,15 @@ My research is informed by prior work in ocular biomechanics and pulley mechanic
 
 ## [Research]({{ '/research/' | relative_url }})
 
-I design **robotic eyes** to study eye movement, binocular vision, and strabismus-related visual experience.
-My work combines **robotic hardware, vision science, mathematical modeling, and control** to explore:
+I build **robotic eyes** and mathematical models to understand how forces and geometry shape eye movement, and how eye alignment affects binocular images.
+My research connects **mechanical design, eye-movement dynamics, feedback control, and binocular visualization**:
 
-- **Robotic eye platforms** - building cable-driven robotic eyes that approximate key features of human eye motion.
-- **Eye movement modeling and control** - developing mathematical models and controllers for yaw, pitch, torsion, and binocular coordination.
-- **Binocular vision visualization** - studying how two eye views can be combined into a fused visual scene.
-- **Strabismus vision simulation** - developing robotic-eye experiments that approximate patient-specific visual experiences associated with eye misalignment.
-- **Real-time visual synthesis** - creating binocular visualization pipelines that help clinicians and researchers inspect simulated visual outcomes more directly.
+- **[Eye dynamics modeling]({{ '/research/eye-dynamics-model-system-states/' | relative_url }})** - predicting how applied torque changes the eye's horizontal, vertical, and twisting motion.
+- **[Robotic eye control]({{ '/research/kinematic-control-open-loop-vs-closed-loop/' | relative_url }})** - using orientation feedback to help cable-driven eyes reach a target gaze more accurately.
+- **[Binocular vision and strabismus]({{ '/research/matched-healthy-binocular-visualization-result/' | relative_url }})** - using paired camera views to visualize how eye misalignment changes binocular images.
+- **[From Listing's law to a torque plane]({{ '/research/listing-compatible-torque-plane/' | relative_url }})** - extending constraints on eye orientation and rotation velocity to a model-based constraint on the torque driving the eye.
+- **[Air-bearing experimental platform]({{ '/research/air-bearing-eye-dynamics-validation/' | relative_url }})** - designing a low-friction testbed to investigate the dynamics model by connecting measured cable forces with eye motion.
+- **[Pulley geometry for Listing-compatible motion]({{ '/research/listing-compatible-pulley-paths/' | relative_url }})** - designing pulley paths that change with gaze so cable geometry produces torques compatible with Listing's law.
 
 ## Work Experience
 
