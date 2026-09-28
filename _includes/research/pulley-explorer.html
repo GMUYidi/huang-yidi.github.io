@@ -1,0 +1,55 @@
+<section class="pulley-explorer" data-pulley-explorer aria-label="Interactive eye and pulley geometry">
+  <form class="pulley-targets">
+    <label>Yaw &psi; (&deg;)<input name="yaw" type="number" min="-89" max="89" step="any" value="15" required></label>
+    <label>Pitch &theta; (&deg;)<input name="pitch" type="number" min="-89" max="89" step="any" value="13" required></label>
+    <label>Torsion &phi; (&deg;)<input name="roll" type="number" min="-180" max="180" step="any" value="1.718734" required disabled></label>
+    <label class="pulley-check"><input name="listing" type="checkbox" checked> Listing torsion</label>
+    <button type="submit" class="pulley-apply"><i class="fa-solid fa-check" aria-hidden="true"></i> Apply</button>
+    <details class="pulley-settings">
+      <summary>Motion settings</summary>
+      <div class="pulley-settings-fields">
+        <label>Start yaw (&deg;)<input name="startYaw" type="number" min="-89" max="89" step="any" value="0" required></label>
+        <label>Start pitch (&deg;)<input name="startPitch" type="number" min="-89" max="89" step="any" value="0" required></label>
+        <label>Segment length (mm)<input name="length" type="number" min="1" max="40" step="any" value="12" required></label>
+        <label>Playback duration (s)<input name="duration" type="number" min="0.5" max="20" step="any" value="4" required></label>
+      </div>
+    </details>
+  </form>
+  <p class="pulley-error" role="alert" hidden></p>
+  <div class="pulley-options">
+    <label>Paths <select name="muscle" aria-label="Muscle paths"><option value="recti">Four recti</option><option value="all">All six</option><option>LR</option><option>MR</option><option>SR</option><option>IR</option><option>SO</option><option>IO</option></select></label>
+    <label class="pulley-check"><input name="trails" type="checkbox" checked> Trails</label>
+    <label class="pulley-check"><input name="labels" type="checkbox" checked> Labels</label>
+    <label class="pulley-check"><input name="plane" type="checkbox"> Pulley plane</label>
+    <label>View <select name="view" aria-label="Camera view"><option value="oblique">3D</option><option value="front">Front</option><option value="top">Top</option><option value="side">Side</option></select></label>
+    <button type="button" data-action="camera" title="Reset camera" aria-label="Reset camera"><i class="fa-solid fa-rotate-left" aria-hidden="true"></i></button>
+    <button type="button" data-action="fullscreen" title="Fullscreen" aria-label="Fullscreen"><i class="fa-solid fa-expand" aria-hidden="true"></i></button>
+  </div>
+  <div class="pulley-workspace">
+    <div class="pulley-viewport">
+      <canvas aria-label="Three-dimensional eye with muscle insertions, moving pulleys and fixed endpoints" tabindex="0"></canvas>
+      <div class="pulley-labels" aria-hidden="true"></div>
+      <div class="pulley-loading" role="status">Loading eye geometry&hellip;</div>
+      <img class="pulley-fallback" src="{{ '/images/demos/2026-pulley-geometric-trajectories.png' | relative_url }}" alt="Computed paths of four rectus pulleys around the eye" hidden>
+    </div>
+    <div class="pulley-playback">
+      <button type="button" data-action="play" title="Play" aria-label="Play" disabled><i class="fa-solid fa-play" aria-hidden="true"></i></button>
+      <button type="button" data-action="rewind" title="Return to start" aria-label="Return to start" disabled><i class="fa-solid fa-backward-step" aria-hidden="true"></i></button>
+      <input name="progress" type="range" min="0" max="120" step="1" value="120" aria-label="Playback progress" disabled>
+      <output class="pulley-time">4.00 / 4.00 s</output>
+      <select name="speed" aria-label="Playback speed"><option value="0.5">0.5&times;</option><option value="1" selected>1&times;</option><option value="2">2&times;</option></select>
+    </div>
+    <aside class="pulley-data" aria-label="Current pose and point coordinates">
+      <h3>Current pose</h3>
+      <dl class="pulley-pose"><div><dt>Yaw</dt><dd data-value="yaw">15.00&deg;</dd></div><div><dt>Pitch</dt><dd data-value="pitch">13.00&deg;</dd></div><div><dt>Torsion</dt><dd data-value="roll">1.72&deg;</dd></div></dl>
+      <div class="pulley-table-heading"><label>Coordinates <select name="point" aria-label="Coordinate point type"><option value="pulley">Pulley P</option><option value="insertion">Insertion I</option><option value="endpoint">Endpoint E</option></select></label><button type="button" data-action="download" title="Download current coordinates as CSV" aria-label="Download coordinates"><i class="fa-solid fa-download" aria-hidden="true"></i></button></div>
+      <table class="pulley-table"><thead><tr><th scope="col">mm</th><th scope="col">X</th><th scope="col">Y</th><th scope="col">Z</th></tr></thead><tbody></tbody></table>
+      <dl class="pulley-residuals"><div><dt>Listing offset</dt><dd data-value="offset">0.0000&deg;</dd></div><div><dt>Normal moment / N</dt><dd data-value="moment">0 mm</dd></div></dl>
+      <p class="pulley-plane-name" hidden></p>
+      <p class="pulley-routing" hidden></p>
+    </aside>
+  </div>
+  <div class="pulley-legend" aria-label="Figure legend"><span><b class="pulley-marker insertion"></b>Insertion I</span><span><b class="pulley-marker pulley"></b>Pulley P</span><span><b class="pulley-marker endpoint"></b>Endpoint E</span><span><b class="pulley-key-line"></b>Elapsed path</span><span><b class="pulley-key-line dotted"></b>Full path</span></div>
+  <p class="pulley-scope">Geometry replay &middot; 15 mm globe &middot; SO/IO are fixed reference paths; their torque is excluded.</p>
+  <noscript><p>The interactive view requires JavaScript. The geometric construction and figures are shown below.</p></noscript>
+</section>
